@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 80vh;
+    background-color: cadetblue;
+}
+.watsaap{
+    width: 100%;
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+
+}
+.catagity{
+    flex: 1;
+    height: 100vh;
+    background-color: darkorange;
+}
+.catagity nav{
+    flex: 2;
+    height: 70px;
+    display: flex;
+    background-color: deeppink;
+}
+.catagity nav img{
+   padding: 10px;
+    border-radius: 100%;
+}
+.logo{
+    flex: 2;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: springgreen;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lawngreen;
+}
+.search input{
+    
+   width: 90%;
+   height: 40px;
+   border-radius: 20px;
+    border: none;
+    text-align: center;    
+}
+.index{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+
+    background-color: maroon;
+}
+img{
+    border-radius: 100%;
+    padding: 10px;
+}
+span{
+    display: flex;
+    align-items: center;
+    
+    color: white;
+}
+.shubham{
+   
+    width: 100%;
+    height: 70px;
+    display: flex;
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+
+.kalpesh{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: olive;
+
+}
+.vishal{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: orange;
+    
+}
+.vickey{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: red;
+
+}
+.kedar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: slateblue;
+
+}
+.chatbox{
+    flex: 2;
+    height: 100vh;
+    display: flex;
+    background-color: darkorchid;
+}
+.chatbox nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: deeppink;
+}
+.user{
+    flex: 1;
+    height: 70px;
+    display: flex;
+    background-color: chartreuse;
+}
+.menu{
+    flex: 1;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: blue;
+
+}
+.menu img{
+    width: 30px;
+    height: 30px;
+
+}
